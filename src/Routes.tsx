@@ -1,6 +1,12 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 
-import { HomeScreen, ListScreen, SignInScreen, SignUpScreen } from '@/screens'
+import {
+  HomeScreen,
+  ListScreen,
+  SignInScreen,
+  SignUpScreen,
+  TestScreen
+} from '@/screens'
 
 const AppRoutes = () => {
   return (
@@ -18,6 +24,8 @@ const AppRoutes = () => {
 
         <Route path="/entrar" element={<SignInScreen />} />
         <Route path="/cadastro" element={<SignUpScreen />} />
+
+        <Route path="/teste" element={<TestScreen />} />
 
         {/* =============================================================== */}
       </Routes>
