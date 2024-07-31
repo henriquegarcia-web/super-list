@@ -14,8 +14,8 @@ const AppRoutes = () => {
       <Routes>
         {/* =============================================================== */}
 
-        <Route path="/" element={<Navigate to="/home" />} />
-        <Route path="*" element={<Navigate to="/home" />} />
+        <Route path="/" element={<Navigate to="/teste" />} />
+        <Route path="*" element={<Navigate to="/teste" />} />
 
         {/* =============================================================== */}
 
